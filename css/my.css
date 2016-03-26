@@ -147,9 +147,9 @@ a {
 	animation-iteration-count: infinite;
 }
 @keyframes cloud-2-animation {
-    0%   {left: 80%;}
+    0%   {left: 75%;}
     50%  {left: 55%;}
-    100% {left: 80%;}
+    100% {left: 75%;}
 }
 
 /*cloud-3 animation*/
