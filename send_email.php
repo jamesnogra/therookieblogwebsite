@@ -25,7 +25,7 @@
 				<title>Email Received...</title>
 			</head>
 			<body>
-				<h2 style='background-color:#e6f7ff;'>Your email has been sent...</h2>
+				<h2 style='background-color:#e6f7ff;padding:10px;'>Your email has been sent...</h2>
 				<h3>This was the message you sent:</h3>
 				<p>".$theMessage."</p>
 			</body>
@@ -38,7 +38,7 @@
 				<title>New Inquiry for TheRookieBlogger</title>
 			</head>
 			<body>
-				<h2 style='background-color:#e6f7ff;'>new inquiry for TheRookieBlogger</h2>
+				<h2 style='background-color:#e6f7ff;padding:10px;'>New Inquiry for TheRookieBlogger</h2>
 				<h3>Message:</h3>
 				<p>".$theMessage."</p>
 			</body>
