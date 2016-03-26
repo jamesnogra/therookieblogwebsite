@@ -3,7 +3,7 @@
 	session_start();
 	
 	$now = time();
-	$expiry = time()+5;
+	$expiry = time()+60;
 	
 	if (isset($_SESSION["expiry_time"])) {
 		if ($now < $_SESSION["expiry_time"]) {
