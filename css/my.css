@@ -1,0 +1,165 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px 0px 0px 0px;
+	background-color: #e6f7ff;
+	font-family: Arial;
+}
+
+a {
+	font-style: none;
+	color: #000000;
+}
+
+#thumbnail-container {
+	position: absolute;
+	top: 50%;
+	margin-top: -15%;
+	height: 270px;
+	width: 100%;
+}
+
+.thumbnail-each {
+	width: 30%;
+	height: 100%;
+	background-color: grey;
+	background-size: 100%;
+	float: left;
+	margin: 0% 1.66% 0% 1.66%;
+	-webkit-transition: height 250ms; /* Safari */
+    transition: height 250ms;
+	cursor: pointer;
+}
+
+.thumbnail-each:hover {
+	height: 110%;
+}
+
+.thumbnail-each-label {
+	text-align: center;
+	margin-top: 305px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.my-btn {
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: #0077b3;
+	border: 2px solid #b3e6ff;
+	color: #FFFFFF;
+}
+.my-btn:hover {
+	background-color: #b3e6ff;
+	border: 2px solid #0077b3;
+	color: #000000;
+}
+
+#send-email-btn {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	width: 100px;
+	margin-left: -65px;
+}
+
+#fullscreen {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	opacity: 0.9;
+}
+
+.my-spacer {
+	width: 0px;
+	height: 5px;
+	clear: both;
+	overflow: hidden;
+}
+
+#email-form-container {
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	margin-left: -250px;
+	width: 500px;
+	background-color: #b3e6ff;
+	box-shadow: 0px 0px 20px;
+}
+
+.error-message {
+	color: red;
+	padding: 5px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.my-input {
+	width: 97%;
+	font-family: sans-serif;
+	font-size: 18px;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+	border: solid 2px #66ccff;
+	transition: box-shadow 0.3s, border 0.3s;
+	resize: none;
+	padding: 5px;
+}
+
+.for-padding {
+	padding: 10px;
+}
+
+.my-cloud {
+	position: absolute;
+	background-image: url('../img/cloud.ico');
+	width: 256px;
+	height: 256px;
+}
+
+/*cloud-1 animation*/
+#cloud-1 {
+	top: 0%;
+	animation-name: cloud-1-animation;
+    animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes cloud-1-animation {
+    0%   {left: 0%;}
+    50%  {left: 40%;}
+    100% {left: 0%;}
+}
+
+/*cloud-2 animation*/
+#cloud-2 {
+	top: -5%;
+	left: 80%;
+	animation-name: cloud-2-animation;
+    animation-duration: 14s;
+	animation-iteration-count: infinite;
+}
+@keyframes cloud-2-animation {
+    0%   {left: 80%;}
+    50%  {left: 55%;}
+    100% {left: 80%;}
+}
+
+/*cloud-3 animation*/
+#cloud-3 {
+	top: 55%;
+	left: 80%;
+	animation-name: cloud-3-animation;
+    animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+@keyframes cloud-3-animation {
+    0%   {left: 40%;}
+    50%  {left: 65%;}
+    100% {left: 40%;}
+}
