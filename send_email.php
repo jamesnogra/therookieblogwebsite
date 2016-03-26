@@ -17,7 +17,7 @@
 	//send email
 	$to1 = $_POST["the_email"];
 	$subject1 = "Your message to TheRookieBlogger has been sent!";
-	$subject2 = "new Inquiry from TheRookieBlogger!";
+	$subject2 = "New Inquiry from TheRookieBlogger!";
 
 	$message1 = "
 		<html>
@@ -50,7 +50,7 @@
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 	// More headers
-	$headers .= 'From: TheRookieBlogger<no-reply@therookieblog.com>' . "\r\n";
+	$headers .= 'From: The Rookie Blogger<no-reply@therookieblog.com>' . "\r\n";
 
 	mail($to1,$subject1,$message1,$headers);
 	mail("jamesnogra@gmail.com",$subject2,$message2,$headers);
